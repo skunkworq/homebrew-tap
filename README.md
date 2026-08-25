@@ -15,11 +15,17 @@ Or install directly:
 brew install skunkworq/tap/aegis
 ```
 
+CloudGuardian remains available as `cloudguard`:
+
+```bash
+brew install skunkworq/tap/cloudguard
+```
+
 ## Updating
 
 ```bash
 brew update
-brew upgrade aegis
+brew upgrade aegis cloudguard
 ```
 
 ## Uninstallation
