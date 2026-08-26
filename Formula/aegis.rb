@@ -1,8 +1,8 @@
 class Aegis < Formula
   desc "Securely sync project environment files with your Aegis vault"
   homepage "https://a3gis.me"
-  url "https://github.com/skunkworq/homebrew-tap/releases/download/aegis-v0.1.5/aegis-cli-0.1.5.tar.gz"
-  sha256 "695b79e06bde1570047166097db40077fa1d078ec29f9233bc7b1c61d68859f8"
+  url "https://github.com/skunkworq/homebrew-tap/releases/download/aegis-v0.1.7/aegis-cli-0.1.7.tar.gz"
+  sha256 "6cc56c996b4dcb4b511a4a70656df134eeaa81056d6ceabb48fb149c52b30211"
   depends_on "node@22"
 
   def install
