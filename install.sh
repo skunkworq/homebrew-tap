@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-version="${AEGIS_VERSION:-0.1.4}"
+version="${AEGIS_VERSION:-0.1.5}"
 prefix="${AEGIS_INSTALL_PREFIX:-${HOME}/.local}"
 release_url="https://github.com/skunkworq/homebrew-tap/releases/download/aegis-v${version}/aegis-cli-${version}.tar.gz"
-expected_sha256="be71b6f074e71061b8928a23aed84194aa51e35f189c3706a0f2a91cc32bacd0"
+expected_sha256="695b79e06bde1570047166097db40077fa1d078ec29f9233bc7b1c61d68859f8"
 temporary_root="$(mktemp -d "${TMPDIR:-/tmp}/aegis-install.XXXXXX")"
 
 cleanup() {
