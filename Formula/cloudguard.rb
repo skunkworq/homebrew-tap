@@ -1,26 +1,26 @@
 class Cloudguard < Formula
   desc "CloudGuardian CLI - Cloud cost protection for GCP & AWS"
   homepage "https://cloudguard.dev"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/skunkworq/homebrew-tap/releases/download/cloudguard-v0.1.0/cloudguard_darwin_arm64"
-      sha256 "fadc5b878525c457feb7f67ba01764a87cd918a07e8361c45110686989e43bc7"
+      url "https://github.com/skunkworq/homebrew-tap/releases/download/cloudguard-v0.1.1/cloudguard_darwin_arm64"
+      sha256 "b552eeb48393f32fa58e0d7b7bd52a4cbd4859aa44bbdef38e90c3fb174ef749"
     else
-      url "https://github.com/skunkworq/homebrew-tap/releases/download/cloudguard-v0.1.0/cloudguard_darwin_amd64"
-      sha256 "5e81c6ca62326826733fa6ee0ec8471d06a1a8cfe043251df42860deb5b5e0b9"
+      url "https://github.com/skunkworq/homebrew-tap/releases/download/cloudguard-v0.1.1/cloudguard_darwin_amd64"
+      sha256 "bfc2fd2cef5827d1ac21237d7c81cac90abd25c11f4c8d91d2a92d2dacea0102"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/skunkworq/homebrew-tap/releases/download/cloudguard-v0.1.0/cloudguard_linux_arm64"
-      sha256 "bcffd418eb909ac2cb0448598e6e23683748ac5621f3d28f6d5b199d1df7e0be"
+      url "https://github.com/skunkworq/homebrew-tap/releases/download/cloudguard-v0.1.1/cloudguard_linux_arm64"
+      sha256 "9309bd8a836d82d1cc4e1f26d52dfd2c88966439687071bf7cecd0e99a40a609"
     else
-      url "https://github.com/skunkworq/homebrew-tap/releases/download/cloudguard-v0.1.0/cloudguard_linux_amd64"
-      sha256 "aac02c5169929df09b98e6acb89443ae85370bf03a6cd696b07f44776600121d"
+      url "https://github.com/skunkworq/homebrew-tap/releases/download/cloudguard-v0.1.1/cloudguard_linux_amd64"
+      sha256 "3fca8eb41420578f119950ee0c7383a81b35e5b14ea512172106c31bbd205d42"
     end
   end
 
